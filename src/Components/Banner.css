@@ -1,0 +1,37 @@
+.banner{
+    @apply bg-mainBanner bg-cover bg-center md:pt-[240px] h-screen
+     w-full
+     pt-[300px]
+    /* -----------md---------- */
+    /* md:w-[1349px] md:h-[750px] */
+    /* -----------lg---------- */
+    /* lg:w-[1024px]  */
+    lg:pt-[130px]
+}
+.banner_text{
+    @apply flex justify-center items-center flex-col
+}
+.banner_text h1{
+    @apply font-IBM font-bold  text-[#fff]  text-center 
+    /* ---------md--------- */
+    md:text-[70px]
+    md:w-[819px]
+    /* ---------sm---------- */
+    sm:text-[40px]
+    /* ----------lg---------- */
+    lg:text-[50px]
+}
+.banner_button{
+    @apply flex gap-[6px] mt-[10px] 
+    /* ---------md--------- */
+    md:gap-[57px]  md:mt-[48px]
+    /* ---------sm--------- */
+    sm:mt-[18px]
+}
+.banner_button button{
+    @apply  py-[6px]   px-[10px]  bg-[#fff] font-IBM  font-semibold  text-[14px] text-[#000] rounded-[8px] hover:bg-[#FF9600] hover:text-[#fff] duration-500
+    /* ----------md---------- */
+    md:py-[16px] md:px-[38px] md:font-bold md:text-[18px]
+    /* ----------sm---------- */
+    sm:py-[9px] sm:px-[16px]
+}

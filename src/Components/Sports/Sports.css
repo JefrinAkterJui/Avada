@@ -1,0 +1,46 @@
+.main_sports{
+    @apply bg-Sbg  pt-[95px] pb-[0px] w-full  mb-[200px] bg-no-repeat bg-cover
+}
+.Sports_logo {
+    @apply flex items-center justify-center md:mb-[28px] mb-[20px] 
+}
+.Sports_main_text{
+    @apply flex justify-center items-center flex-col
+}
+.Sports_main_text h1{
+    @apply font-IBM font-bold md:text-[54px] text-[#fff] md:w-[1179px] text-center text-[20px] w-[300px] lg:text-[40px] lg:w-[1000px]
+}
+.Sports_main_text P{
+    @apply font-IBM font-bold md:text-[30px] text-[#fff] text-center md:mt-[50px] text-[16px] mt-[18px] lg:mt-[30px]
+}
+.sports_button{
+    @apply flex gap-[28px] justify-center items-center mt-[56px]
+}
+.sports_button button{
+    @apply font-IBM font-bold md:text-[16px] text-[#fff] md:py-[23px] py-[10px] md:px-[43px] px-[15px] bg-[#0C3543] rounded-[10px] hover:bg-[#0c3543ea] duration-200 text-[14px]
+}
+/* --------------card css----------------- */
+.sports_cards{
+    @apply flex justify-between md:mt-[111px] mt-[90px] gap-[10px] flex-wrap pb-[50px]
+}
+.card1{
+    @apply bg-sbg1 md:w-[395px] md:h-[447px] pt-[218px] md:px-[68px] rounded-[20px] h-[447px] px-[30px] lg:w-[300px] lg:h-[400px]
+}
+.hum1{
+    @apply bg-sbg2
+}
+.hum2{
+    @apply bg-sbg3
+}
+.card1 .card_text h2{
+    @apply font-IBM font-bold md:text-[36px] text-[#fff] text-[30px] lg:text-[20px]
+}
+.card1 .card_text p{
+    @apply font-IBM font-bold md:text-[28px] text-[#fff] md:mt-[27px] text-[20px] mt-[20px] lg:text-[19px]
+}
+.card1 .card_text .line{
+    @apply md:w-[260px] h-[2px] bg-[#C4C4C4] mt-[20px] w-[220px] lg:w-[150px]
+}
+.card1 .card_text h3{
+    @apply font-IBM font-normal text-[18px] text-[#4e4e4e]  mt-[28px] lg:text-[16px]
+}
